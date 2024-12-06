@@ -25,7 +25,7 @@ export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
 export const DEFAULT_DEV_PAKE_OPTIONS: PakeCliOptions & { url: string } = {
   ...DEFAULT_PAKE_OPTIONS,
   url: 'https://pms.lyetc.com',
-  name: '智停云岗亭端',
+  name: 'Lyetc.com',
   safeDomain: ['pms.lyetc.com'],
   hideTitleBar: true,
 };
