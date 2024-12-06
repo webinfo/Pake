@@ -25,7 +25,7 @@ export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
 export const DEFAULT_DEV_PAKE_OPTIONS: PakeCliOptions & { url: string } = {
   ...DEFAULT_PAKE_OPTIONS,
   url: 'https://pms.lyetc.com',
-  name: 'Lyetc.com',
+  name: 'ZTPMS',
   safeDomain: ['pms.lyetc.com'],
   hideTitleBar: true,
 };
